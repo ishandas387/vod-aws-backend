@@ -11,3 +11,11 @@ This project has an experimental backend for VOD system.
 A spring boot project connecting to AWS RDS, S3, SES.
 
 
+```
+vod-aws-backend/lambda/Video convertor_HLS/Lib/site-packages/convert.py - is the python file deployed as lamda
+responsible for creating media convert job and hitting the spring boot rest endpoint for table update.
+
+```
+
+### P.S springboot is just involved out of habit. Everything can be achieved serverless.
+
